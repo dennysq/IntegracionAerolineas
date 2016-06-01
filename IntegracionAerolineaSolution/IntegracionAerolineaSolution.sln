@@ -11,6 +11,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "IntegracionAerolineaWS", "h
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{75292a5b-421b-42aa-b0a4-3dcac5e09771}|ServiciosAerolinea.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50445"
 		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\My Web Sites\IntegracionAerolineaWS\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50445\"

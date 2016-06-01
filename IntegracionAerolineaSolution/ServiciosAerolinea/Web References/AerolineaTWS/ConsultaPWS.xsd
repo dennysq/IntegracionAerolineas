@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws.aerolinea.arquitectura.teamj.com/" targetNamespace="http://ws.aerolinea.arquitectura.teamj.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="consultaP" type="tns:consultaP" />
+  <xs:element name="consultaPResponse" type="tns:consultaPResponse" />
+  <xs:complexType name="consultaP">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="parametrosBusqueda" type="tns:consultaPasajePeticion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultaPasajePeticion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="destino" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaRetorno" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="fechaSalida" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="origen" type="xs:string" />
+      <xs:element minOccurs="0" name="totalAsientos" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultaPResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:consultaPasajeRespuesta" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultaPasajeRespuesta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoVuelo" type="xs:int" />
+      <xs:element minOccurs="0" name="costoAsiento" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
