@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{153D48C7-C685-4D5F-981F-C030BAC4E1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosAerolinea", "ServiciosAerolinea\ServiciosAerolinea.csproj", "{75292A5B-421B-42AA-B0A4-3DCAC5E09771}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "IntegracionAerolineaWS", "http://localhost:50445", "{E7FDB31C-941F-4E17-960D-450B4BD38A95}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50445"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\My Web Sites\IntegracionAerolineaWS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50445\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50445"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Documents\My Web Sites\IntegracionAerolineaWS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50445\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\Documents\My Web Sites\IntegracionAerolineaWS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153D48C7-C685-4D5F-981F-C030BAC4E1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153D48C7-C685-4D5F-981F-C030BAC4E1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153D48C7-C685-4D5F-981F-C030BAC4E1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153D48C7-C685-4D5F-981F-C030BAC4E1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75292A5B-421B-42AA-B0A4-3DCAC5E09771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75292A5B-421B-42AA-B0A4-3DCAC5E09771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75292A5B-421B-42AA-B0A4-3DCAC5E09771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75292A5B-421B-42AA-B0A4-3DCAC5E09771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FDB31C-941F-4E17-960D-450B4BD38A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FDB31C-941F-4E17-960D-450B4BD38A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FDB31C-941F-4E17-960D-450B4BD38A95}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FDB31C-941F-4E17-960D-450B4BD38A95}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
